@@ -6,7 +6,7 @@ import time
 def get_locationtime():
     return time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
 
-def get_createtime(secs):
+def get_formatedtime(secs):
     return time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(int(secs)))
 
 def printformat(str1,str2):
